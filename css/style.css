@@ -1,7 +1,7 @@
  body {
       font-family: Vazir, Arial, sans-serif;
       background: #efe1e1;
-      color: #d61b1b;
+      color: #333;
       line-height: 1.6;
       direction: rtl;
       margin: 0;
@@ -72,3 +72,12 @@
       text-decoration: underline;
       background-color: rgb(34, 34, 33);
     }
+@media (max-width: 620px) {
+  .item li{
+    width: 100%;
+    display: block;
+    
+  }
+
+
+  }
